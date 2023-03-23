@@ -1,0 +1,42 @@
+section{
+  border: 1px solid black;
+  height: 270px;
+  width: 500px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgb(218, 230, 230);
+  box-shadow: 0px 0px 10px 15px rgb(245, 241, 241);
+  margin-left: 350px;
+
+}
+.card-title input{
+    width: 350px;
+    height: 35px;
+    background-color: rgb(205, 232, 239);
+    border: none;
+    border-bottom: 3px dotted black;
+    border-radius:6px;
+    
+}
+.card-title{
+  margin-left: 440px;
+}
+.card-title h1{
+  margin-left:40px ;
+  font-family: sans-serif;
+}
+main{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+main #a{
+  margin-left: 330px;
+  font-weight: bold;
+  margin-top: 30PX;
+
+}
+main #b{
+  
+  font-weight: bold;
+  margin-top: 30PX;
+}
